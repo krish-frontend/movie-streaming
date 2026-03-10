@@ -1,0 +1,64 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightcoral;
+}
+
+nav{
+    background-color: red;
+    padding: 16px 5px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 1000;
+    top: 0px;
+    align-items: center;
+}
+
+
+
+.nav-logo{
+    color: white;
+}
+
+.nav-button{
+    display: flex;
+    gap: 10px;
+}
+
+.nav-btn{
+    padding: 10px 20px;
+    border: none;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+.btn-fav{
+    background-color: lightgreen;
+    color: black;
+}
+
+.btn-cart{
+    background-color: rgb(219, 241, 94);
+    color: black;
+}
+
+.btn-login{
+    background-color: greenyellow;
+    color: white;
+}
+
+.cont{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 32px;
+
+}
+
+.movie
