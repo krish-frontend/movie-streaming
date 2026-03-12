@@ -25,8 +25,10 @@ function displaymovies(){
 
 allmoviesData.forEach(movie=>{
     const card=document.createElement("div");
-    card.innerHTML='
-    <div class=" movies-poster">
-    <img src=${movie.poster} alt=$
-    '
+    card.innerHTML=`
+    <div class="movies-poster">
+    <img src=${movie.poster} alt=${movie.title} class="movie-poster-img">
+    </div>
+    <div class="movie-info">
+    `
 })
